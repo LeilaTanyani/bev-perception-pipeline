@@ -1,0 +1,20 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# IDE Settings
+.idea/
+.vscode/
+
+# Local Data and Datasets
+*.png
+*.jpg
+*.jpeg
+data/
+datasets/
+
+# Environments
+.env
+venv/
+ENV/
