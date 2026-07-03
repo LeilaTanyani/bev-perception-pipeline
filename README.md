@@ -6,7 +6,7 @@ The figures below demonstrate the execution of the 4-point Homography Inverse Pe
 
 | 1. Perspective View with Source Anchor | 2. Generated Bird's-Eye-View (BEV) Ground Plane |
 | :---: | :---: |
-| ![Perspective Source Selection](result.png) | ![Warped BEV Output](picture1.png) |
+| ![Perspective Source Selection](picture.png) | ![Warped BEV Output](result.png) |
 | *Figure 1: Original monocular frame with 4 selected ground-plane control anchors.* | *Figure 2: Orthographic top-down transformation isolating lane boundaries.* |
 
 ---
