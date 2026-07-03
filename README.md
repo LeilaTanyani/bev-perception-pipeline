@@ -4,10 +4,12 @@ An autonomous driving perception framework engineering top-down Birds-Eye-View t
 
 The figures below demonstrate the execution of the 4-point Homography Inverse Perspective Mapping (IPM) pipeline using a sample frame from the Stuttgart sequence.
 
-| 1. Perspective View with Source Anchors | 2. Generated Bird's-Eye-View (BEV) Ground Plane |
-|:---:|:---:|
-| ![Perspective Source Selection](assets/stuttgart_perspective.png) | ![Warped BEV Output](assets/stuttgart_bev.png) |
+<!-- Replace the existing image row with this clean markdown syntax -->
+| 1. Perspective View with Source Anchor | 2. Generated Bird's-Eye-View (BEV) Ground Plane |
+| :---: | :---: |
+| ![Perspective Source Selection](picture.png) | ![Warped BEV Output](result.png) |
 | *Figure 1: Original monocular frame with 4 selected ground-plane control anchors.* | *Figure 2: Orthographic top-down transformation isolating lane boundaries.* |
+
 ## Pipeline Architecture
 
 This repository showcases the modular, clean-code architecture of the transformation engine. The internal mathematical loops are abstracted to preserve core algorithmic confidentiality, demonstrating production-grade software topology.
